@@ -1,0 +1,122 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --lightGrey: #ffffff80;
+  --darkBlue: #192538;
+  --majorWidth: 920px;
+  --sidebar-border: #1b30701c; /*#f74e0029*/
+
+  --primary-color: #282262; /* #f26524;*/
+  --secondary-color: ##92268c;
+  --highlight-color: #1b306f47; /*#ffdcc0;*/
+  --primary-border-color: #282262; /*#f26524;*/
+  --background-color: #ecf1fb;
+
+  --navbar-background-color: #fff;
+  --sidebar-background-color: #fff;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin: 0;
+  color: #4a5669 !important;
+}
+
+.ar {
+  direction: rtl;
+}
+
+/* buttons */
+
+.primary-button {
+  box-shadow: 0 0 0 1px var(--primary-color) inset !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.secondary-button {
+  box-shadow: 0 0 0 1px #e8edf5 inset !important;
+  color: var(--primary-color) !important;
+  background-color: #f7fafe !important;
+  font-weight: 500 !important;
+}
+
+/* .basicbutton {
+  background-color: -var(--primary-color) !important;
+  color: white !important;
+} */
+
+.basicbutton {
+  color: var(--primary-color) !important;
+  background: white !important;
+  border: 1px solid var(--primary-color) !important;
+  border-radius: 5px !important;
+  box-shadow: 1px 1px 1px 1px rgba(10, 10, 10, 0.2) !important;
+  margin: 4px !important;
+}
+
+.basicStyle {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.noPadding {
+  padding: 0 !important;
+}
+.noMargin {
+  margin: 0 !important;
+}
+.paddingTopZero {
+  padding-top: 0 !important;
+}
+/* headers */
+
+.ui.header {
+  font-weight: 600 !important;
+}
+
+.dimmer {
+  z-index: 1 !important;
+}
+
+/* Segments */
+.segment-container {
+  height: 87vh !important;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0);
+  /*overflow-y: scroll;*/
+}
+
+/* check box input */
+.ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input:checked ~ label:before {
+  background-color: var(--primary-color) !important;
+}
+
+/* Grid margin */
+.page-grid {
+  /*padding-top: 1rem !important;*/
+  overflow-x: hidden;
+  margin-top: 0rem !important;
+  background: #ecf1fb85 !important;
+  overflow-y: scroll;
+  margin-left: 0rem !important;
+  height: 100%;
+}
+
+/* Tab */
+.ui.tabular.menu {
+  border-bottom: none;
+}
+.ui.segment {
+  border: 1px solid #e6efff;
+}
+
+@import "~semantic-ui-css/semantic.css";

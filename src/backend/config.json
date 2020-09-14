@@ -1,0 +1,13 @@
+﻿{
+  "connectionString": "mongodb://127.0.0.1:27017/sigma",
+  "secret": "my-secret-yara",
+  "emailFrom": "tare2.da@gmail.com",
+  "smtpOptions": {
+    "host": "smtp.ethereal.email",
+    "port": 587,
+    "auth": {
+      "user": "flo75@ethereal.email",
+      "pass": "vtWdR33DwCKj3pUH2n"
+    }
+  }
+}
